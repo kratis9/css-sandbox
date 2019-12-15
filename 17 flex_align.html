@@ -44,10 +44,19 @@
         */
       }
 
+      .item-1 {
+        order: 3;
+      }
       .item-2 {
         /* Align single item vertical */
-        align-self: start;
+        align-self: flex-end; /* for this we need to comment flex-wrap:wrap property otrherwise it won't effect */
+        order: 2;
       }
+
+      .item-3 {
+        order: 1;
+      }
+
       .item {
         background: #f4f4f4;
         border: #ccc solid 1px;
